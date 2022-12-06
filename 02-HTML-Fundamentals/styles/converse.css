@@ -38,4 +38,50 @@ header h2 {
   border: 5px solid;
   width: 825px;
   margin: 50px auto;
+  position: relative;
+}
+
+h2::after {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+.colors-container {
+  margin-top: 30px;
+  padding: 0;
+}
+.colors {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  list-style: none;
+  display: inline-block;
+}
+.colors:last-child {
+  margin-right: 0;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
 }
