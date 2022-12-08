@@ -13,14 +13,13 @@ nav {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: red;
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
@@ -178,4 +177,18 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
