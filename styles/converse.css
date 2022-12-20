@@ -32,13 +32,6 @@ header h2 {
   text-align: center;
   font-weight: bold;
 }
-.image-container p:first-of-type {
-  font-size: 20px;
-  font-weight: bold;
-}
-.image-container p:last-child {
-  color: grey;
-}
 .container {
   border: 5px solid;
   width: 825px;
@@ -89,4 +82,48 @@ h2::after {
 }
 .brown {
   background-color: brown;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.short-details {
+  flex: 1;
+  padding: 25px;
+}
+.product-details {
+  flex: 1;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.price p:first-child {
+  font-size: larger;
+}
+.price p:last-child {
+  font-size: small;
+  color: grey;
+}
+.short-details p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.short-details a {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.product-details li {
+  padding: 5px;
+}
+img {
+  height: 242px;
+  width: 242px;
+}
+header {
+  padding: 20px;
+  background-color: aliceblue;
 }
